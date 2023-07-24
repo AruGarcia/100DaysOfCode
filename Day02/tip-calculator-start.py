@@ -29,4 +29,3 @@ if percentage > 15:
 else:
     round_pay = round(should_pay, 2)
     print(f'Each person should pay: ${round_pay}')
-
