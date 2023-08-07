@@ -32,7 +32,7 @@ names = names_string.split(", ")
 
 
 num_of_names = len(names)
-random_names = random.randint(0, num_of_names)
+random_names = random.randint(0, num_of_names - 1)
 
-print(names[random_names])
 
+print(f'{names[random_names]} is going to buy the meal today!')
