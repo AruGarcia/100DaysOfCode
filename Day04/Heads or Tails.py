@@ -24,7 +24,7 @@ random_integer = random.randint(0, 1)
 
 
 if random_integer == 0:
- print('Heads')
+    print('Heads')
 
 else:
-  print('Tails')
+    print('Tails')

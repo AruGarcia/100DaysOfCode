@@ -14,10 +14,10 @@
 # the range() function in any of the solutions.
 
 
-#Write your code below this row 👇
+# Write your code below this row 👇
 
 total = 0
 for even in range(2, 101, 2):
-  total += even
+    total += even
 
 print(total)
