@@ -11,3 +11,9 @@ def greet():
 greet()
 
 
+def greet_with_name(name):
+    print(f"Hello {name}!\n")
+    print("My name is Acosta.\n")
+    print("Nice to meet you!\n")
+
+greet_with_name('Garcia')
