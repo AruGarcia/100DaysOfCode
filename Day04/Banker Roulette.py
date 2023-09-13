@@ -23,7 +23,7 @@ import random
 # You might need the help of the len() function.
 
 # Split string method
-names_string= input("Give me everybody's names, seperated by a comma. ")
+names_string = input("Give me everybody's names, seperated by a comma. ")
 names = names_string.split(", ")
 # 🚨 Don't change the code above 👆
 
@@ -35,4 +35,4 @@ num_of_names = len(names)
 random_names = random.randint(0, num_of_names - 1)
 
 
-print(f'{names[random_names]} is going to buy the meal today!')
+print(f"{names[random_names]} is going to buy the meal today!")

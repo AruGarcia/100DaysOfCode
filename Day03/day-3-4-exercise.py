@@ -50,6 +50,6 @@ else:
         price += 3
 if extra_cheese == "Y":
     price += 1
-    print(f'Your final bill is: ${price}.')
+    print(f"Your final bill is: ${price}.")
 else:
-    print(f'Your final bill is: ${price}.')
+    print(f"Your final bill is: ${price}.")

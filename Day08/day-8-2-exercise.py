@@ -11,6 +11,7 @@
 
 import math
 
+
 def prime_checker(number):
     for i in range(2, number):
         if number % i == 0:
@@ -18,5 +19,6 @@ def prime_checker(number):
             return
 
     print("It's a prime number.")
+
 
 prime_checker(11)

@@ -8,6 +8,6 @@ number = input("Type a two digit number: ")
 first_number = int(number[0])
 second_number = int(number[1])
 
-sum_numbers = (first_number + second_number)
+sum_numbers = first_number + second_number
 
 print(sum_numbers)

@@ -21,8 +21,10 @@
 # Example Output
 # You'll need 6 cans of paint.
 
+
 def number_of_cans(heigh, width, cover):
     cans = (heigh * width) / cover
     print(f"You'll need {round(cans)} cans of paint.")
+
 
 number_of_cans(3, 9, 5)

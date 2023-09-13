@@ -7,12 +7,12 @@
 
 # Write your code below this line 👇
 
-print('Welcome to the tip calculator.\n')
+print("Welcome to the tip calculator.\n")
 
-bill = float(input('What was the total bill? '))
-percentage = int(input('What percentage tip you like to give? 10, 12 or 15? '))
+bill = float(input("What was the total bill? "))
+percentage = int(input("What percentage tip you like to give? 10, 12 or 15? "))
 
-people = float(input('How many people to split the bill? '))
+people = float(input("How many people to split the bill? "))
 
 if percentage == 10:
     should_pay = (bill / people) * 1.1
@@ -24,8 +24,8 @@ elif percentage == 15:
     should_pay = (bill / people) * 1.15
 
 if percentage > 15:
-    print('Write a valid percentage, please.')
+    print("Write a valid percentage, please.")
 
 else:
     round_pay = round(should_pay, 2)
-    print(f'Each person should pay: ${round_pay}')
+    print(f"Each person should pay: ${round_pay}")

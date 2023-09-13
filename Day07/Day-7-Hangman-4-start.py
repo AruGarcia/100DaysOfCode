@@ -2,7 +2,8 @@
 
 import random
 
-stages = ['''
+stages = [
+    """
   +---+
   |   |
   O   |
@@ -10,7 +11,8 @@ stages = ['''
  / \  |
       |
 =========
-''', '''
+""",
+    """
   +---+
   |   |
   O   |
@@ -18,7 +20,8 @@ stages = ['''
  /    |
       |
 =========
-''', '''
+""",
+    """
   +---+
   |   |
   O   |
@@ -26,14 +29,16 @@ stages = ['''
       |
       |
 =========
-''', '''
+""",
+    """
   +---+
   |   |
   O   |
  /|   |
       |
       |
-=========''', '''
+=========""",
+    """
   +---+
   |   |
   O   |
@@ -41,7 +46,8 @@ stages = ['''
       |
       |
 =========
-''', '''
+""",
+    """
   +---+
   |   |
   O   |
@@ -49,7 +55,8 @@ stages = ['''
       |
       |
 =========
-''', '''
+""",
+    """
   +---+
   |   |
       |
@@ -57,7 +64,8 @@ stages = ['''
       |
       |
 =========
-''']
+""",
+]
 
 end_of_game = False
 word_list = ["ardvark", "baboon", "camel"]
@@ -69,7 +77,7 @@ word_length = len(chosen_word)
 lives = 6
 
 # Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+print(f"Pssst, the solution is {chosen_word}.")
 
 # Create blanks
 display = []
@@ -94,7 +102,6 @@ while not end_of_game:
         if lives == 0:
             end_of_game = True
             print("You lose!")
-
 
     # Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")

@@ -24,6 +24,6 @@ number = int(input("Which number do you want to check? "))
 remainder = number % 2
 
 if remainder == 0:
-    print('This is a even number.')
+    print("This is a even number.")
 else:
-    print('This is a odd number.')
+    print("This is a odd number.")

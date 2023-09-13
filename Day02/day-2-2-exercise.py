@@ -18,4 +18,4 @@ convert_weight = float(weight)
 
 BMI = convert_weight / convert_height**2
 
-print(f'{BMI:.0f}')
+print(f"{BMI:.0f}")

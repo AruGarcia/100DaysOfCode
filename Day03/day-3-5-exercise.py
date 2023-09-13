@@ -35,25 +35,25 @@ lower_name2 = name2.lower()
 
 join_names = lower_name1 + lower_name2
 
-numT = join_names.count('t')
-numR = join_names.count('r')
-numU = join_names.count('u')
-numE = join_names.count('e')
+numT = join_names.count("t")
+numR = join_names.count("r")
+numU = join_names.count("u")
+numE = join_names.count("e")
 
 somaTRUE = str(numT + numR + numU + numE)
 
-numL = join_names.count('l')
-numO = join_names.count('o')
-numV = join_names.count('v')
-numE = join_names.count('e')
+numL = join_names.count("l")
+numO = join_names.count("o")
+numV = join_names.count("v")
+numE = join_names.count("e")
 
 somaLOVE = str(numL + numO + numV + numE)
 
 combine = int(somaTRUE + somaLOVE)
 
 if combine < 10 or combine > 90:
-    print(f'Your score is {combine}, you go together like coke and mentos.')
+    print(f"Your score is {combine}, you go together like coke and mentos.")
 elif 40 <= combine <= 50:
-    print(f'Your score is {combine}, you are alright together.')
+    print(f"Your score is {combine}, you are alright together.")
 else:
-    print(f'Your score is {combine}.')
+    print(f"Your score is {combine}.")
